@@ -13,3 +13,4 @@ class BaseUI:
 
         self.main_widget = QtWidgets.QWidget(main_window)
         self.main_widget.setObjectName('main_widget')
+        self.main_widget.resize(300, 300)
