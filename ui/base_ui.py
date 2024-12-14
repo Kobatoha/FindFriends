@@ -1,4 +1,5 @@
 from PyQt6 import QtWidgets, QtGui
+from resources.css import base_css
 
 
 class BaseUI:
@@ -10,6 +11,7 @@ class BaseUI:
         main_window.setWindowTitle('FindFriend')
         main_window.setWindowIcon(QtGui.QIcon(main_icon))
         main_window.resize(300, 300)
+        main_window.setStyleSheet(base_css)
 
         self.main_widget = QtWidgets.QWidget(main_window)
         self.main_widget.setObjectName('main_widget')
