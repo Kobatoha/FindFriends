@@ -33,14 +33,21 @@ def logout(launcher_hwnd):
     utils.left_click()
 
 
-def click_login_text_edit(launcher_hwnd):
+def click_short_login_text_edit(launcher_hwnd):
     x, y = 449, 128
     utils.move_to(launcher_hwnd, x, y)
     time.sleep(1)
     utils.left_click()
 
 
-def choice_account(launcher_hwnd, num=1):
+def click_long_login_text_edit(launcher_hwnd):
+    x, y = 750, 128
+    utils.move_to(launcher_hwnd, x, y)
+    time.sleep(1)
+    utils.left_click()
+
+
+def choice_short_account(launcher_hwnd, num=1):
     accounts = {
         1: {'x': 470, 'y': 185},
         2: {'x': 445, 'y': 242},
@@ -52,12 +59,24 @@ def choice_account(launcher_hwnd, num=1):
     utils.left_click()
 
 
+def choice_long_account(launcher_hwnd, num=1):
+    accounts = {
+        1: {'x': 750, 'y': 179},
+        2: {'x': 750, 'y': 243},
+        3: {'x': 750, 'y': 287},
+        4: {'x': 750, 'y': 345},
+    }
+    utils.move_to(launcher_hwnd, accounts[num]['x'], accounts[num]['y'])
+    time.sleep(1)
+    utils.left_click()
+
+
 if __name__ == '__main__':
     title = '4game'
     launcher_hwnd = utils.get_window_hwnd_by_title(title)[0]
     focus_launcher(launcher_hwnd, title)
-    click_login_text_edit(launcher_hwnd)
-    choice_account(launcher_hwnd, num=4)
+    click_long_login_text_edit(launcher_hwnd)
+    choice_long_account(launcher_hwnd, num=4)
     click_game_button(launcher_hwnd)
     click_profile(launcher_hwnd)
     logout(launcher_hwnd)
