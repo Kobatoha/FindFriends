@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="860ea724-fc03-4f10-b82e-4107bb9950e7" name="Changes" comment="update move_to, move_mouse and get_mouse_position">
-      <change afterPath="$PROJECT_DIR$/logic/event_handlers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/css.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/css.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ui/base_ui.py" beforeDir="false" afterPath="$PROJECT_DIR$/ui/base_ui.py" afterDir="false" />
+    <list default="true" id="860ea724-fc03-4f10-b82e-4107bb9950e7" name="Changes" comment="update ui and css">
+      <change beforePath="$PROJECT_DIR$/logic/launcher_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/logic/launcher_utils.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +22,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Kobatoha&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Kobatoha/FindFriends.git&quot;,
+    &quot;accountId&quot;: &quot;71280f79-9afe-4d8e-a51d-3a0dd9ed0fcf&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -35,22 +43,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.launcher_utils.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/user/PycharmProjects/FindFriends",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.launcher_utils.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/PycharmProjects/FindFriends&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.launcher_utils">
     <configuration name="launcher_utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="FindFriends" />
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/logic" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -182,7 +193,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734203821202</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="update ui and css">
+      <option name="closed" value="true" />
+      <created>1734208664910</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1734208664910</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -194,6 +213,7 @@
     <MESSAGE value="init login utils" />
     <MESSAGE value="add new func with launcher" />
     <MESSAGE value="update move_to, move_mouse and get_mouse_position" />
-    <option name="LAST_COMMIT_MESSAGE" value="update move_to, move_mouse and get_mouse_position" />
+    <MESSAGE value="update ui and css" />
+    <option name="LAST_COMMIT_MESSAGE" value="update ui and css" />
   </component>
 </project>
